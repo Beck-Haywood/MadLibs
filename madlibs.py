@@ -28,7 +28,7 @@ def add_name_list():
 #Function asks for adjectives and puts them in a list
 def add_adj_list():
     runtime = 0
-    while runtime !=3:
+    while runtime !=4:
         adj = input("Enter an adjective! ")
         adjectives.append(adj)
         runtime += 1
@@ -69,5 +69,8 @@ list_all_items()
 print("A long time ago in a " + places[0] + " far, far away... the " + adjectives[0] +  " evil coperation " + nouns[0] + " tech developed a " + nouns[1]
 + ". This " + nouns[1] + " forced the users to repeatedly " + verbs[0] + ". This Angered a user of the product named " + names[0]
 + ", this user was skilled in the art of " + verbs[1] + "(ing) this allowed " + names[0] + " to face the evil coperation's head boss, " + names[1]
-+ ". The head boss was also profficent in a skill their hobby is " + verbs[2] + "(ing), ")
-#Still needs 2 more adj and 1 more place could use coloring or organization.
++ ". The head boss was also profficent in a skill, their hobby is " + verbs[2] + "(ing), However " + names[0] + " was feeling very " + adjectives[1]
++ " this day and out skilled the boss, this caused the boss to feel very " + adjectives[2] + ", with the evil coperation " + nouns[0]
++ " tech defeated, people could return to there normal lives. The one and true saviour " + names[0] + " returned to his " + adjectives[3] + " " + places[1]
++ " and lived happily ever after.")
+#Could use coloring or organization.
